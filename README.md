@@ -12,3 +12,6 @@ https://b2c.passport.rt.ru/ .
 Структура проекта: был создан класс BasePage, от него наследован класс AuthPage для соответствующей страницы. 
 Создан отдельный файл, содержащий в себе локаторы (locators.py), а также файл settings.py , где хранятся различные 
 данные для авторизации.
+
+Запуск тестов при помощи консольной команды:
+python -m pytest -v -rP --driver Chrome --driver-path c:\webdriver\chromedriver.exe
