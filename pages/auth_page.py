@@ -5,7 +5,7 @@ import time
 import os
 
 
-class MainPage(BasePage):
+class AuthPage(BasePage):
     def __init__(self, driver, timeout=10):
         super().__init__(driver, timeout)
         url = 'https://b2c.passport.rt.ru/auth/realms/b2c/protocol/openid-connect/auth?client_id=account_b2c' \
