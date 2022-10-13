@@ -14,4 +14,5 @@ https://b2c.passport.rt.ru/ .
 данные для авторизации.
 
 Запуск тестов при помощи консольной команды:
+
 python -m pytest -v -rP --driver Chrome --driver-path c:\webdriver\chromedriver.exe
