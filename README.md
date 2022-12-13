@@ -16,3 +16,5 @@ https://b2c.passport.rt.ru/ .
 Запуск тестов при помощи консольной команды:
 
 python -m pytest -v -rP --driver Chrome --driver-path c:\webdriver\chromedriver.exe
+
+Тест-кейсы и баг-репорты - https://docs.google.com/spreadsheets/d/1MUTsliDCENdajKygJWU501NGJd1p3KVts-93f-2jGco/
